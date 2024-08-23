@@ -29,13 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    function sendEmail(name) {
-        const email = 'vunguyenthuyduong123456789@gmail.com';
-        const subject = 'Thông báo từ website';
-        const body = `${name} đã bái kiến bạn.`;
-        window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    }
-
     function showDoveAnimation() {
         doveAnimation.style.transform = 'translateX(100vw)';
         setTimeout(() => {
